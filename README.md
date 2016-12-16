@@ -1,6 +1,4 @@
-Rails Omniauth Mongoid
-=========
+<img src="www.htteepee.com/plates.jpg">
+==LicensePlateAvailabilityChecker
 
-Work in progress.
-
-This application is based on the [rails-omniauth](https://github.com/RailsApps/rails-omniauth) example application. We'll use MongoDB with the Mongoid gem instead of SQLite and Active Record.
+Check and see if a custom license plate is available in your state, in the works by Montana Mendy
