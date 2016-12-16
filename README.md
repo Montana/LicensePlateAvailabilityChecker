@@ -1,4 +1,4 @@
-<img src="http://htteepee.com/plates.jpg width=700 height=700">
+<img src="http://htteepee.com/plates.jpg> width=700 height=700">
 
 ##LicensePlateAvailabilityChecker
 
