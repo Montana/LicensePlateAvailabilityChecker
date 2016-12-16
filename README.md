@@ -1,4 +1,4 @@
-<img src="www.htteepee.com/plates.jpg">
+<img src="http://htteepee.com/plates.jpg">
 
 ##LicensePlateAvailabilityChecker
 
