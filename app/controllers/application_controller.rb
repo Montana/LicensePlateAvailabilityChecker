@@ -15,6 +15,16 @@ class ApplicationController < ActionController::Base
         nil
       end
     end
+  
+     def initialize_compositions( attrs )
+        attrs.each do |attr|
+          composed_of attr,
+                      :class_name => "LicensePlate::Plate",
+                      :mapping => [["#{attr}_state", "state"],
+                                   ["#{attr}_number", "number"],
+                                   ["#{attr}_expires_on", "expires_on"]] #,
+                      #:converter => :convert,
+                      #:allow_nil => true
 
     def user_signed_in?
       return true if current_user
