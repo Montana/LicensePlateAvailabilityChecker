@@ -15,6 +15,7 @@ gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'mongoid'
+gem 'sylvia' 
 
 group :development do
   gem 'better_errors'
