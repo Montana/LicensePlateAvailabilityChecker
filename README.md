@@ -2,4 +2,4 @@
 
 ##LicensePlateAvailabilityChecker
 
-Check and see if a custom license plate is available in your state, in the works by Montana Mendy
+Check and see if a custom license plate is available in your state, in the works by Montana Mendy. Written in Ruby on Rails 
