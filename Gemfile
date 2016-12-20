@@ -16,6 +16,8 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'mongoid'
 gem 'sylvia' 
+gem 'jake'
+gem 'bundler'
 
 group :development do
   gem 'better_errors'
