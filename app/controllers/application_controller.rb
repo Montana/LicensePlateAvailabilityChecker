@@ -22,25 +22,6 @@ class ApplicationController < ActionController::Base
                       :class_name => "LicensePlate::Plate",
                       :mapping => [["#{attr}_state", "state"],
                                    ["#{attr}_number", "number"],
-                                   ["#{attr}_expires_on", "expires_on"]] #,
-                      #:converter => :convert,
-                      #:allow_nil => true
-
-    def user_signed_in?
-      return true if current_user
-    end
-
-    def correct_user?
-      @user = User.find(params[:id])
-      unless current_user == @user
-        redirect_to root_url, :alert => "Access denied."
-      end
-    end
-
-    def authenticate_user!
-      if !current_user
-        redirect_to root_url, :alert => 'You need to sign in for access to this page.'
-      end
-    end
+                                   ["#{attr}_expires_on", "expires_on"]] 
 
 end
